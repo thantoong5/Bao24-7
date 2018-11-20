@@ -5,9 +5,10 @@ import { StyleSheet,
         Button, 
         Image, 
         FlatList,
-        TouchableOpacity } from 'react-native'
-
-// tạo logo trên header bar
+        TouchableOpacity,
+        Dimensions } from 'react-native'
+import MainNews from '../components/MainNews';
+import SubNews from '../components/SubNews';
 class LogoTitle extends Component {
     render() {
       return (
@@ -19,53 +20,8 @@ class LogoTitle extends Component {
     }
   }
 
-  class MainNews extends Component {
-    render(){
-      return (
-        <View>
-          <TouchableOpacity
-          style={{width:'100%'}}
-            onPress={() => {this.props.itemNav.navigate('Details')}}>
-            {/* ảnh minh họa */}
-            <Image
-              source={{uri: this.props.itemInfo.image}}
-              style={{ width: 300, height: 300 }}
-            />
-            {/* tiêu đề bài viết */}
-            <Text>{this.props.itemInfo.title}</Text>
-          </TouchableOpacity>
-          {/* nội dung trích dẫn */}
-          <Text>{this.props.itemInfo.content}</Text>
-        </View> 
-      )
-    }
-  }
-
-  class SubNews extends Component {
-    render(){
-      return (
-        <View>
-          <TouchableOpacity
-          style={{width:'100%'}}
-            onPress={() => {this.props.itemNav.navigate('Details')}}>
-            {/* ảnh minh họa */}
-            <Image
-              source={{uri: this.props.itemInfo.image}}
-              style={{ width: 300, height: 300 }}
-            />
-            {/* tiêu đề bài viết */}
-            <Text>{this.props.itemInfo.title}</Text>
-          </TouchableOpacity>
-          {/* nội dung trích dẫn */}
-          <Text>{this.props.itemInfo.content}</Text>
-        </View> 
-      )
-    }
-  }
-
-
 export default class Home extends Component {
-    // cấu hình header bar
+    /// tùy chỉnh header bar
     static navigationOptions = {
         headerTitle: <LogoTitle />,
         headerStyle: {
@@ -85,32 +41,61 @@ export default class Home extends Component {
       };
 
   render() {
+    const dimensions = Dimensions.get('window');
+    const deviceWidth = dimensions.width;
+    const padding = deviceWidth - deviceWidth*96/100;
     return (
       <View style={styles.container}>
         <FlatList
+
             data={
               [
-                {
-                  id: 1,
-                  image : 'https://dantricdn.com/zoom/327_245/2018/11/19/4649375119786462191015516465916291663265792n-1542618670242709289852.jpg',
-                  content: 'abc',
-                  title: 'abcdeeeeeeeeeeeeeeee',
+                { 
+                  
+                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
+                  title: 'Những người hùng vô danh trên bục giảng',
+                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
                   mainContent: true,
                 },
                 {
-                  id: 2,
-                  image : 'https://dantricdn.com/zoom/327_245/2018/11/19/4649375119786462191015516465916291663265792n-1542618670242709289852.jpg',
-                  content: 'abc',
-                  title: 'abcd',
+                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
+                  title: 'Những người hùng vô danh trên bục giảng',
+                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
                   mainContent: false,
-                }
+                },
+                {
+                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
+                  title: 'Những người hùng vô danh trên bục giảng',
+                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
+                  mainContent: false,
+                },
+                { 
+                  
+                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
+                  title: 'Những người hùng vô danh trên bục giảng',
+                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
+                  mainContent: true,
+                },
+                {
+                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
+                  title: 'Những người hùng vô danh trên bục giảng',
+                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
+                  mainContent: false,
+                },
+                {
+                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
+                  title: 'Những người hùng vô danh trên bục giảng',
+                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
+                  mainContent: false,
+                },
+
               ]
             }
-            renderItem={({item}) =>   
-                   item.mainContent ? <MainNews itemNav={this.props.navigation} itemInfo={item}/> : <SubNews itemNav={this.props.navigation} itemInfo={item}/>   
+            renderItem={({item}) =>  
+              item.mainContent ? <MainNews itemNav={this.props.navigation} itemInfo={item} /> : <SubNews itemNav={this.props.navigation} itemInfo={item} />
                 } 
             // thêm key (id) cho mỗi item
-            keyExtractor={(item, index) => index.toString()}
+            keyExtractor={(item,index) => index.toString()}
             />  
       </View>
     )
@@ -121,8 +106,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-    alignSelf: 'stretch',
   },
 });
