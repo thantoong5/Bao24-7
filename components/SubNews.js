@@ -18,18 +18,32 @@ export default class SubNews extends Component {
       return (
         <View style={styles.container}>
         	<TouchableOpacity 
-        		onPress={() => this.props.itemNav.navigate('Details')}>
+            
+        		onPress={() => this.props.itemNav.navigate('Details',{
+                id: this.props.itemInfo.id,
+                title: this.props.itemInfo.title,
+                description: this.props.itemInfo.description
+              }
+            )}>
         		<Text style={styles.title}>{this.props.itemInfo.title}</Text>
         	</TouchableOpacity>
     		<View style={styles.child}>
     			<TouchableOpacity
-    				onPress={() => this.props.itemNav.navigate('Details')}>
+            
+    				onPress={() => this.props.itemNav.navigate('Details',{
+                id: this.props.itemInfo.id,
+                title: this.props.itemInfo.title,
+                description: this.props.itemInfo.description
+              }
+            )}>
+            
     				<Image
 		    			resizeMode={'cover'}
               source={{uri: this.props.itemInfo.image}}
               style={{width: imageWidth,height: imageHeight,marginRight: 10,}}
             />
-    			</TouchableOpacity>          	
+    			</TouchableOpacity>
+                     	
           		<Text style={styles.description}>{this.props.itemInfo.description}</Text>
     		</View>
         </View> 

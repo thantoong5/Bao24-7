@@ -17,9 +17,13 @@ export default class HeaderDetail extends Component {
     render(){
       return (
         <View style={styles.container}>
+        
           <Text style={styles.title}>{this.props.itemInfo.title}</Text>
+          
           <Text style={styles.time}>{this.props.itemInfo.time}</Text>
+          
           <Text style={styles.description}>{this.props.itemInfo.description}</Text>
+
         </View> 
       )
     }
@@ -51,7 +55,7 @@ const styles = StyleSheet.create({
     color: '#1f1f1f',
     marginTop: 10,
     fontStyle: 'italic',
-    fontSize: 18,
+    fontSize: 16,
     textAlign: 'justify',
     lineHeight: 26,
     marginTop: 16,

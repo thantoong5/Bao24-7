@@ -15,22 +15,35 @@ export default class MainNews extends Component {
     this.state = {};
   }
     render(){
-
-      
       return (
         <View style={styles.mainNews}>
           <TouchableOpacity 
-            onPress={() => this.props.itemNav.navigate('Details')}>
+             
+            onPress={() => this.props.itemNav.navigate('Details',{
+                id: this.props.itemInfo.id,
+                title: this.props.itemInfo.title,
+                description: this.props.itemInfo.description
+              }
+            )}>
+            
             <Image
               resizeMode={'cover'}
               source={{uri: this.props.itemInfo.image}}
               style={styles.image}
             />
           </TouchableOpacity>
-          <TouchableOpacity 
-            onPress={() => this.props.itemNav.navigate('Details')}>
+
+          <TouchableOpacity              
+            onPress={() => this.props.itemNav.navigate('Details',{
+                id: this.props.itemInfo.id,
+                title: this.props.itemInfo.title,
+                description: this.props.itemInfo.description
+              }
+            )}>
+            
             <Text style={styles.title}>{this.props.itemInfo.title}</Text>
           </TouchableOpacity>
+          
           <Text style={styles.description}>{this.props.itemInfo.description}</Text>
         </View> 
       )

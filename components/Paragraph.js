@@ -18,7 +18,8 @@ class Paragraph extends Component {
     return (
       <View style={styles.container}>
         {
-          this.props.itemInfo.image.trim() == '' ? <Text></Text>: <Image
+          
+          this.props.itemInfo.image === null ? <Text></Text> : <Image
               style={styles.image}
               resizeMode={'cover'}
               source={{uri: this.props.itemInfo.image}}/> 

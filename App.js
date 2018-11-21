@@ -5,7 +5,7 @@ import Home from './screens/Home';
 import Details from './screens/Details';
 import { createStackNavigator, createAppContainer } from "react-navigation";
 
-
+// sử dụng stack (xếp chồng) để quản lý screen
 const RootStack = createStackNavigator(
   {
     Home: Home,

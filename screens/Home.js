@@ -6,21 +6,31 @@ import { StyleSheet,
         Image, 
         FlatList,
         TouchableOpacity,
-        Dimensions } from 'react-native'
+        Dimensions,
+        Alert } from 'react-native'
 import MainNews from '../components/MainNews';
 import SubNews from '../components/SubNews';
+import firebaseConf from '../lib/FirebaseConf';
+
 class LogoTitle extends Component {
     render() {
       return (
           <Image
-            source={{uri:'https://pbs.twimg.com/profile_images/945288665990709249/dN0BK_em_400x400.jpg'}}
-            style={{ width: 30, height: 30 }}
+            source={{uri:'https://diylogodesigns.com/wp-content/uploads/2016/02/Economic-Times-News-logo-design.png'}}
+            resizeMode={'cover'}
+            style={styles.logo}
           /> 
       );
     }
   }
 
 export default class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.readNewsData = this.readNewsData.bind(this);
+    this.state = {education:[]};
+    
+  }
     /// tùy chỉnh header bar
     static navigationOptions = {
         headerTitle: <LogoTitle />,
@@ -33,68 +43,54 @@ export default class Home extends Component {
         },
         headerRight: (
             <Button
-              onPress={() => alert('This is a button!')}
-              title="Info"
-              color="blue"
-            />
+              title={'Menu'}
+              color={'green'}
+              onPress={() => Alert.alert('abc')}/>
           ),
       };
 
+  // phương thức này được gọi khi component đã được gắn kết vào trong 'sơ đồ mối quan hệ các component' , 
+  // nơi dùng để lấy dữ liệu hoặc tạo DOM nodes 
+  componentDidMount() {
+    this.readNewsData();
+  }
+
+  readNewsData() {
+     // lấy instance của class truyền instance cho phương thức
+    var that = this;
+    
+    firebaseConf.database().ref('categories/0/education/').once('value', function (snapshot) {
+        let educationTmp =[];
+        // lấy dữ liệu (do cấu trúc database nên dùng forEach)
+        snapshot.forEach(function (childSnapshot) {
+            let item = {
+              id: childSnapshot.val().id,
+              mainContent: childSnapshot.val().mainContent,
+              title: childSnapshot.val().title,
+              description: childSnapshot.val().description,
+              image: childSnapshot.val().image
+            }
+            // đẩy dữ liệu item vào educationTmp
+            educationTmp.push(item);
+        });
+        // cập nhật array education thông qua dữ liệu của array educationTmp
+        that.setState({education: educationTmp});
+        
+    });
+  }
   render() {
-    const dimensions = Dimensions.get('window');
-    const deviceWidth = dimensions.width;
-    const padding = deviceWidth - deviceWidth*96/100;
+    
     return (
       <View style={styles.container}>
         <FlatList
-
-            data={
-              [
-                { 
-                  
-                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
-                  title: 'Những người hùng vô danh trên bục giảng',
-                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
-                  mainContent: true,
-                },
-                {
-                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
-                  title: 'Những người hùng vô danh trên bục giảng',
-                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
-                  mainContent: false,
-                },
-                {
-                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
-                  title: 'Những người hùng vô danh trên bục giảng',
-                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
-                  mainContent: false,
-                },
-                { 
-                  
-                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
-                  title: 'Những người hùng vô danh trên bục giảng',
-                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
-                  mainContent: true,
-                },
-                {
-                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
-                  title: 'Những người hùng vô danh trên bục giảng',
-                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
-                  mainContent: false,
-                },
-                {
-                  image : 'https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg',
-                  title: 'Những người hùng vô danh trên bục giảng',
-                  description: '(Dân trí) - "Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...”',
-                  mainContent: false,
-                },
-
-              ]
-            }
+            data={this.state.education}
+            
             renderItem={({item}) =>  
-              item.mainContent ? <MainNews itemNav={this.props.navigation} itemInfo={item} /> : <SubNews itemNav={this.props.navigation} itemInfo={item} />
+              item.mainContent ? <MainNews  itemNav={this.props.navigation} 
+                                            itemInfo={item} /> : <SubNews itemNav={this.props.navigation} 
+                                                                          itemInfo={item} />
                 } 
-            // thêm key (id) cho mỗi item
+           
             keyExtractor={(item,index) => index.toString()}
             />  
       </View>
@@ -102,9 +98,23 @@ export default class Home extends Component {
   }
 }
 
+/// lấy chiều dài, chiều rộng thiết bị
+  const dimensions = Dimensions.get('window');
+  const deviceWidth = dimensions.width;
+  const margin = deviceWidth * 4 / 100;
+
+  const logoWidth = dimensions.width * 12 /100;
+  const logoHeight = dimensions.width * 12 /100;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
   },
+  logo: {
+    width: logoWidth,
+    height: logoHeight,
+    marginLeft: margin,
+  },
+
 });
