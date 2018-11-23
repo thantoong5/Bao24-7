@@ -6,7 +6,7 @@ import { StyleSheet,
         Image, 
         FlatList,
         TouchableOpacity,
-        Dimensions } from 'react-native'
+        Dimensions } from 'react-native';
 
 export default class MainNews extends Component {
   constructor(props) {

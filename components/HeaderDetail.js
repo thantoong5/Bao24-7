@@ -17,7 +17,6 @@ export default class HeaderDetail extends Component {
     render(){
       return (
         <View style={styles.container}>
-        
           <Text style={styles.title}>{this.props.itemInfo.title}</Text>
           
           <Text style={styles.time}>{this.props.itemInfo.time}</Text>

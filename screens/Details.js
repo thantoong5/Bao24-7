@@ -21,24 +21,7 @@ export default class Details extends Component {
     this.readDetailData = this.readDetailData.bind(this);
     this.state = {contentNews: []};
   }
-  // tùy chỉnh header bar
-  static navigationOptions = {
-      title: 'Details',
-      headerStyle: {
-        backgroundColor: '#f4511e',
-      },
-      headerTintColor: '#fff',
-      headerTitleStyle: {
-        fontWeight: 'bold',
-      },
-      headerRight: (
-            <Button
-              title={'Menu'}
-              color={'green'}
-              onPress={() => Alert.alert('abc')}/>
-          ),
-    };
-
+  
   componentDidMount() {
     this.readDetailData();
   }

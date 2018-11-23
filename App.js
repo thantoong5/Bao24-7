@@ -1,33 +1,40 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react'
+import { StyleSheet,
+        Text, 
+        View, 
+        Button, 
+        Image, 
+        TouchableOpacity} from 'react-native'
+import HomeScreen from './screens/Home';
+import SportsScreen from './screens/Sports';
+import DetailsScreen from './screens/Details';
+import {  createStackNavigator, 
+          createAppContainer, 
+          createDrawerNavigator,
+          NavigationActions,
+          createSwitchNavigator } from "react-navigation";
 
-import Home from './screens/Home';
-import Details from './screens/Details';
-import { createStackNavigator, createAppContainer } from "react-navigation";
+const StackNavigator = createStackNavigator(
+    {
+        Home: HomeScreen,
+        Details: DetailsScreen,
+    },
+    {
+      initialRouteName: 'Home',
+    });
 
-// sử dụng stack (xếp chồng) để quản lý screen
-const RootStack = createStackNavigator(
+const DrawerNavigator = createDrawerNavigator(
   {
-    Home: Home,
-    Details: Details
-  },
-  {
-    initialRouteName: 'Home'
+    Home: StackNavigator,
+    Sports: SportsScreen,
   }
-);
-const AppContainer = createAppContainer(RootStack);
+); 
+
+const AppStack = createAppContainer(DrawerNavigator);
 
 export default class App extends React.Component {
-  render() {
-    return <AppContainer />;
-  }
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  render() {
+    return <AppStack />;
+    }
+  }

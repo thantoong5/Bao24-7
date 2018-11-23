@@ -7,50 +7,21 @@ import { StyleSheet,
         FlatList,
         TouchableOpacity,
         Dimensions,
+        PropTypes,
         Alert } from 'react-native'
 import MainNews from '../components/MainNews';
 import SubNews from '../components/SubNews';
 import firebaseConf from '../lib/FirebaseConf';
 
-class LogoTitle extends Component {
-    render() {
-      return (
-          <Image
-            source={{uri:'https://diylogodesigns.com/wp-content/uploads/2016/02/Economic-Times-News-logo-design.png'}}
-            resizeMode={'cover'}
-            style={styles.logo}
-          /> 
-      );
-    }
-  }
+
 
 export default class Home extends Component {
   constructor(props) {
     super(props);
     this.readNewsData = this.readNewsData.bind(this);
     this.state = {education:[]};
-    
   }
-    /// tùy chỉnh header bar
-    static navigationOptions = {
-        headerTitle: <LogoTitle />,
-        headerStyle: {
-          backgroundColor: '#f4511e',
-        },
-        headerTintColor: '#fff',
-        headerTitleStyle: {
-          fontWeight: 'bold',
-        },
-        headerRight: (
-            <Button
-              title={'Menu'}
-              color={'green'}
-              onPress={() => Alert.alert('abc')}/>
-          ),
-      };
 
-  // phương thức này được gọi khi component đã được gắn kết vào trong 'sơ đồ mối quan hệ các component' , 
-  // nơi dùng để lấy dữ liệu hoặc tạo DOM nodes 
   componentDidMount() {
     this.readNewsData();
   }
@@ -98,17 +69,19 @@ export default class Home extends Component {
   }
 }
 
+
 /// lấy chiều dài, chiều rộng thiết bị
   const dimensions = Dimensions.get('window');
   const deviceWidth = dimensions.width;
   const margin = deviceWidth * 4 / 100;
 
-  const logoWidth = dimensions.width * 12 /100;
-  const logoHeight = dimensions.width * 12 /100;
+  const logoWidth = dimensions.width * 8 /100;
+  const logoHeight = dimensions.width * 8 /100;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'row',
     backgroundColor: '#fff',
   },
   logo: {
@@ -116,5 +89,4 @@ const styles = StyleSheet.create({
     height: logoHeight,
     marginLeft: margin,
   },
-
 });
