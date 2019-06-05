@@ -1,0 +1,201 @@
+{
+  "categories" : [ 
+      {
+        "education" : [ 
+          { 
+            "id" : "n1",
+            "description" : "(Dân trí) - 'Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...'",
+            "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+            "mainContent" : true,
+            "title" : "Những người hùng vô danh trên bục giảng",
+            "content" : [ 
+              {
+                "header" : true,
+                "time" : "Thứ 4, 21/11/2018 - 10:06:42 PM"
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              } 
+            ]
+          }, 
+          {
+            "id" : "n2",
+            "description" : "(Dân trí) - 'Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...'",
+            "image" : "https://dantricdn.com/zoom/327_245/2018/11/21/honda-15428041512771364332636.jpg",
+            "mainContent" : false,
+            "title" : "Những người hùng vô danh trên bục giảng",
+            "content" : [ 
+              {
+                "header" : true,
+                "time" : "Thứ 4, 21/11/2018 - 10:06:42 PM"
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/327_245/2018/11/21/honda-15428041512771364332636.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }  
+          ]
+        },
+        {
+            "id" : "n3",
+            "description" : "(Dân trí) - 'Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...'",
+            "image" : "https://dantricdn.com/zoom/130_100/2018/11/21/a4-15427996779391511396234.jpg",
+            "mainContent" : false,
+            "title" : "Những người hùng vô danh trên bục giảng",
+            "content" : [ 
+              {
+                "header" : true,
+                "time" : "Thứ 4, 21/11/2018 - 10:06:42 PM"
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/130_100/2018/11/21/a4-15427996779391511396234.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }  
+          ]
+        },
+        {
+            "id" : "n4",
+            "description" : "(Dân trí) - 'Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...'",
+            "image" : "https://cdn.24h.com.vn/upload/4-2018/images/2018-11-21/1542787817-876-qu---nh-1542685051-width640height480.jpg",
+            "mainContent" : true,
+            "title" : "Những người hùng vô danh trên bục giảng",
+            "content" : [ 
+              {
+                "header" : true,
+                "time" : "Thứ 4, 21/11/2018 - 10:06:42 PM"
+              }, 
+              {
+                "header" : false,
+                "image" : "https://cdn.24h.com.vn/upload/4-2018/images/2018-11-21/1542787817-876-qu---nh-1542685051-width640height480.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }  
+          ]
+        },
+        {
+            "id" : "n5",
+            "description" : "(Dân trí) - 'Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...'",
+            "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+            "mainContent" : false,
+            "title" : "Những người hùng vô danh trên bục giảng",
+            "content" : [ 
+              {
+                "header" : true,
+                "time" : "Thứ 4, 21/11/2018 - 10:06:42 PM"
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }  
+          ]
+        },
+        {
+            "id" : "n6",
+            "description" : "(Dân trí) - 'Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh...'",
+            "image" : "https://dantricdn.com/zoom/130_100/2018/11/21/singapore-timor21-11-18-1542810497002897462076.jpg",
+            "mainContent" : false,
+            "title" : "Những người hùng vô danh trên bục giảng",
+            "content" : [ 
+              {
+                "header" : true,
+                "time" : "Thứ 4, 21/11/2018 - 10:06:42 PM"
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/130_100/2018/11/21/singapore-timor21-11-18-1542810497002897462076.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }, 
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              },
+              {
+                "header" : false,
+                "image" : "https://dantricdn.com/zoom/480_300/2018/11/20/2011giaovien-15426481886201902990885.jpg",
+                "paragraph" : "Trong buổi gặp mặt với gần 200 cán bộ quản lý, nhà giáo tiêu biểu có thành tích nổi bật trong sự nghiệp trồng người, đại diện cho hơn 1,4 triệu nhà giáo, cán bộ quản lý giáo dục cả nước ngày 19/1, Thủ tướng Nguyễn Xuân Phúc đã dẫn câu nói của Chủ tịch Hồ Chí Minh: “Người thầy giáo tốt, thầy giáo xứng đáng là thầy giáo - là người vẻ vang nhất. Dù là tên tuổi không đăng trên báo, không được thưởng huân chương, song những người thầy giáo tốt là những người anh hùng vô danh..."
+              }  
+          ]
+        } 
+      ]
+    } 
+  ]
+}
